@@ -1,5 +1,5 @@
 function augmentingPath(graph, start, end) {
-    visited = new Map
+    visited = new Map //tried to find a way to implement hashing, seems this was fairly close.
     pathlist = []
     pathlist.push(start)
     final = {list: [], flow: 0}
